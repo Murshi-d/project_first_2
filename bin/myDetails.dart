@@ -15,6 +15,7 @@ void main(){
   print("My phone number is $phone");
 
  //if we have more than one variable to interpolte then use ->  ${variables}
+  print("Num 1 :$num1\nNum 2 :$num2");
   print("sum =${num1 + num2}");
 
 
