@@ -32,8 +32,16 @@ void main(){
   print("Your studied college :");
   String? college =stdin.readLineSync();
 
-  print("current studied course :");
+  print("Which course :");
+  String? c_course =stdin.readLineSync();
+
+  print("Current studied course :");
   String? course =stdin.readLineSync();
+
+  print("Institute Name :");
+  String? ins =stdin.readLineSync();
+
+
 
   //cd bin
   //dart run (dart file name.dart)
@@ -43,7 +51,8 @@ void main(){
   print("I have $mark cgpa in my graduation");
   print("My Email Id is $email");
   print("I am coming from $place");
-  print("I studied college $college");
+  print("I am studied college $college");
+  print("I studied couse is $c_course");
   print("Current studied course $course");
 
 
