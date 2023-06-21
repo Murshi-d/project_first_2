@@ -1,4 +1,4 @@
-class math{
+class Math{
   int a=50,b=19;  //instance variables                             // function in local variable
                                                                   //         out is Method
 
@@ -21,7 +21,7 @@ class math{
   }
 }
 void main(){
-  math obj=math();
+  Math obj=Math();
   obj.add();
   obj.sub();
   obj.mul();
