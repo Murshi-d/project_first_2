@@ -40,9 +40,9 @@ import 'dart:io';
 
    int i =1 ;
    while(i <= 10){
-      i++;
-      print(i);
       //i++;
+      print(i);
+      i++;
    }
 
    int l =10 ;
