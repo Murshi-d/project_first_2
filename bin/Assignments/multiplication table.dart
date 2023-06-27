@@ -8,6 +8,6 @@ void main()
   for(int i =1 ;i <= 10 ; i++ )
   {
     int num = i * mul;
-    print(" $i * $mul = $num ");
+    print("$i * $mul = $num ");
   }
 }
